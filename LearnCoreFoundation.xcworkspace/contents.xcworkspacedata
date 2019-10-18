@@ -4,4 +4,7 @@
    <FileRef
       location = "group:Apples/Foundation.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Cases/Cases.xcodeproj">
+   </FileRef>
 </Workspace>
