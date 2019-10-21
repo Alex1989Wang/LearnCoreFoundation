@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EEBEA3F2235D957C00C3B139"
-               BuildableName = "001-start"
-               BlueprintName = "001-start"
+               BlueprintIdentifier = "EE35A1CC235DA6A600E54888"
+               BuildableName = "001-log"
+               BlueprintName = "001-log"
                ReferencedContainer = "container:Foundation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EEBEA3F2235D957C00C3B139"
-            BuildableName = "001-start"
-            BlueprintName = "001-start"
+            BlueprintIdentifier = "EE35A1CC235DA6A600E54888"
+            BuildableName = "001-log"
+            BlueprintName = "001-log"
             ReferencedContainer = "container:Foundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EEBEA3F2235D957C00C3B139"
-            BuildableName = "001-start"
-            BlueprintName = "001-start"
+            BlueprintIdentifier = "EE35A1CC235DA6A600E54888"
+            BuildableName = "001-log"
+            BlueprintName = "001-log"
             ReferencedContainer = "container:Foundation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EEBEA3F2235D957C00C3B139"
-            BuildableName = "001-start"
-            BlueprintName = "001-start"
+            BlueprintIdentifier = "EE35A1CC235DA6A600E54888"
+            BuildableName = "001-log"
+            BlueprintName = "001-log"
             ReferencedContainer = "container:Foundation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

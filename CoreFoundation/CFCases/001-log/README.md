@@ -18,3 +18,4 @@ In order to compile and debug CoreFoundation separately. A few changes were made
 
 ```
 
+The first experiment is to log "Hello World!" using CFLog(). 
