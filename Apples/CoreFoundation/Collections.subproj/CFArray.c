@@ -970,10 +970,14 @@ void CFArraySortValues(CFMutableArrayRef array, CFRange range, CFComparatorFunct
         BOOL result;
         result = CF_OBJC_CALLV((NSMutableArray *)array, isKindOfClass:[NSMutableArray class]);
         immutable = !result;
-    } else if (CF_IS_SWIFT(CFArrayGetTypeID(), array)) {
+    }
+#if DEPLOYMENT_RUNTIME_SWIFT
+    else if (CF_IS_SWIFT(CFArrayGetTypeID(), array)) {
         Boolean result = __CFSwiftBridge.NSArray.isSubclassOfNSMutableArray(array);
         immutable = !result;
-    } else if (__kCFArrayImmutable == __CFArrayGetType(array)) {
+    }
+#endif
+    else if (__kCFArrayImmutable == __CFArrayGetType(array)) {
         immutable = true;
     }
     const CFArrayCallBacks *cb = NULL;

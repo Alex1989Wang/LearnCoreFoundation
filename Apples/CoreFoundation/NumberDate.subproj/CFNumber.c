@@ -85,7 +85,7 @@ struct __CFBoolean {
     CFRuntimeBase _base;
 };
 
-DECLARE_STATIC_CLASS_REF(__NSCFBoolean);
+//DECLARE_STATIC_CLASS_REF(__NSCFBoolean);
 
 static _CF_CONSTANT_OBJECT_BACKING struct __CFBoolean __kCFBooleanTrue = {
     INIT_CFRUNTIME_BASE_WITH_CLASS(__NSCFBoolean, _kCFRuntimeIDCFBoolean)
@@ -388,7 +388,7 @@ struct __CFNumber {
     Bits 4..0: CFNumber type
 */
 
-DECLARE_STATIC_CLASS_REF(__NSCFNumber);
+//DECLARE_STATIC_CLASS_REF(__NSCFNumber);
 
 // Note: The isa for these things is fixed up later
 static _CF_CONSTANT_OBJECT_BACKING struct __CFNumber __kCFNumberNaN = {

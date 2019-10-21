@@ -163,7 +163,7 @@ CF_EXTERN_C_BEGIN
 #endif
 
 #if !defined(FALSE)
-    #define FALSE	0
+    #define FALSE    0
 #endif
 
 #if !defined(CF_INLINE)

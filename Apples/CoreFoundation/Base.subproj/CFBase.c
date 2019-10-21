@@ -287,7 +287,7 @@ static void __CFAllocatorCPPFree(void *ptr, void *info)
 
 static _CF_CONSTANT_OBJECT_BACKING struct __CFAllocator __kCFAllocatorSystemDefault;
 
-DECLARE_STATIC_CLASS_REF(__NSCFType);
+//DECLARE_STATIC_CLASS_REF(__NSCFType);
 
 static _CF_CONSTANT_OBJECT_BACKING struct __CFAllocator __kCFAllocatorMalloc = {
     INIT_CFRUNTIME_BASE_WITH_CLASS(__NSCFType, _kCFRuntimeIDCFAllocator),
@@ -790,7 +790,7 @@ struct __CFNull {
     CFRuntimeBase _base;
 };
 
-DECLARE_STATIC_CLASS_REF(NSNull);
+//DECLARE_STATIC_CLASS_REF(NSNull);
 
 static struct __CFNull _CF_CONSTANT_OBJECT_BACKING __kCFNull = {
     INIT_CFRUNTIME_BASE_WITH_CLASS(NSNull, _kCFRuntimeIDCFNull)

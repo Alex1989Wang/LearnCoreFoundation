@@ -17,7 +17,7 @@
 
 #if DEPLOYMENT_RUNTIME_SWIFT
 
-DECLARE_STATIC_CLASS_REF(NSMutableData);
+//DECLARE_STATIC_CLASS_REF(NSMutableData);
 static const void *_NSMutableData = STATIC_CLASS_REF(NSMutableData);
 static Boolean _CFDataShouldBridgeToSwift(CFTypeID type, CFDataRef data);
 

@@ -88,7 +88,7 @@ static const void *__CFGetSectDataPtr(const char *segname, const char *sectname,
     uint32_t idx, cnt = _dyld_image_count();
     for (idx = 0; idx < cnt; idx++) {
        void *mh = (void *)_dyld_get_image_header(idx);
-       if (mh != &_mh_dylib_header) continue;
+//       if (mh != &_mh_dylib_header) continue;
 #if TARGET_RT_64_BIT
        const struct section_64 *sect = getsectbynamefromheader_64((struct mach_header_64 *)mh, segname, sectname);
 #else

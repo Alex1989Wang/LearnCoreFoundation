@@ -132,6 +132,13 @@ CONST_STRING_DECL(kCFCalendarIdentifierCoptic, "coptic");
 CONST_STRING_DECL(kCFCalendarIdentifierEthiopicAmeteMihret, "ethiopic");
 CONST_STRING_DECL(kCFCalendarIdentifierEthiopicAmeteAlem, "ethiopic-amete-alem");
 
+CONST_STRING_DECL(kCFDateFormatterCalendar, "kCFDateFormatterCalendarKey")
+CONST_STRING_DECL(kCFDateFormatterTimeZone, "kCFDateFormatterTimeZoneKey")
+CONST_STRING_DECL(kCFGregorianCalendar, "kCFCalendarIdentifierGregorian")
+CONST_STRING_DECL(kCFLocaleCalendar, "kCFLocaleCalendarKey")
+CONST_STRING_DECL(kCFLocaleLanguageCode, "kCFLocaleLanguageCodeKey")
+CONST_STRING_DECL(kCFLocaleScriptCode, "kCFLocaleLanguageCodeKey")
+
 // Aliases for Linux
 #if TARGET_OS_LINUX || TARGET_OS_WIN32
 
