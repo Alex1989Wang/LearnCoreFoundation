@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:001-start/001-start.xcodeproj">
+      location = "group:CFCases/CFCases.xcodeproj">
    </FileRef>
 </Workspace>

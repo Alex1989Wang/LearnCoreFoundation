@@ -1,3 +1,0 @@
-
-暂时移除了Apple的Foundation.xcodeproj中swift foundation库的代码。主要目的在于研究CoreFoundation的代码，Swift Foundation暂时不需要关注。
-
