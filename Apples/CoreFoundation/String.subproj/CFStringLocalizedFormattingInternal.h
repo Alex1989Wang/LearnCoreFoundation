@@ -2,9 +2,9 @@
 	Copyright (c) 2015, Apple Inc. All rights reserved.
  */
 
-#include <CoreFoundation/CFDictionary.h>
-#include <CoreFoundation/CFLocale.h>
-#include <CoreFoundation/CFCharacterSet.h>
+#include "CFDictionary.h"
+#include "CFLocale.h"
+#include "CFCharacterSet.h"
 
 CF_PRIVATE CFDictionaryRef _CFStringGetLocalizedFormattingInfo(void);
 CF_PRIVATE CFDictionaryRef _CFStringGetInputIdentifierFormatterMappingFromDescriptor(CFDictionaryRef inputInfo);

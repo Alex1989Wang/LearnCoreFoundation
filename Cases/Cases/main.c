@@ -7,9 +7,19 @@
 //
 
 #include <stdio.h>
+#include "CoreFoundation/CFArray.h"
+#include <limits.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int total = 100;
+    CFMutableArrayRef mutaArray = CFArrayCreateMutable(kCFAllocatorDefault, LONG_MAX, NULL);
+    for (int index = 0; index < total; index++) {
+        CFArrayAppendValue(mutaArray, &index);
+    }
+    CFArrayRef array = CFArrayCreateCopy(kCFAllocatorDefault, mutaArray);
+    for (int index = 0; index < CFArrayGetCount(array); index++) {
+        int *value = (int *)CFArrayGetValueAtIndex(array, index);
+        printf("array's content: %d\n", *value);
+    }
     return 0;
 }

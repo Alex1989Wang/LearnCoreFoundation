@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Apples/Foundation.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Cases/Cases.xcodeproj">
+      location = "group:001-start/001-start.xcodeproj">
    </FileRef>
 </Workspace>

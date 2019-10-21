@@ -11,7 +11,7 @@
 #define __COREFOUNDATION_CFAVAILABILITY__ 1
 
 #if __has_include(<CoreFoundation/TargetConditionals.h>)
-#include <CoreFoundation/TargetConditionals.h>
+#include "TargetConditionals.h"
 #elif __has_include(<TargetConditionals.h>)
 #include <TargetConditionals.h>
 #else
