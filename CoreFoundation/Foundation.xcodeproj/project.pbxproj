@@ -7,6 +7,211 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0EAB8B235FE50F00092813 /* CFString_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA25E235D53B100C3B139 /* CFString_Internal.h */; };
+		EE0EAB8C235FE50F00092813 /* CFMachPort.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA208235D53B100C3B139 /* CFMachPort.h */; };
+		EE0EAB8D235FE50F00092813 /* CFAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA26A235D53B100C3B139 /* CFAttributedString.h */; };
+		EE0EAB8E235FE50F00092813 /* CFBurstTrie.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA267235D53B100C3B139 /* CFBurstTrie.h */; };
+		EE0EAB8F235FE50F00092813 /* CFBase.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA29C235D53B100C3B139 /* CFBase.h */; };
+		EE0EAB90235FE50F00092813 /* CFPropertyList.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA223235D53B100C3B139 /* CFPropertyList.h */; };
+		EE0EAB91235FE50F00092813 /* CFStringDefaultEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA26E235D53B100C3B139 /* CFStringDefaultEncoding.h */; };
+		EE0EAB92235FE50F00092813 /* CFURLAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1E7235D53B100C3B139 /* CFURLAccess.h */; };
+		EE0EAB93235FE50F00092813 /* CFBigNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA277235D53B100C3B139 /* CFBigNumber.h */; };
+		EE0EAB94235FE50F00092813 /* CFStreamAbstract.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1FE235D53B100C3B139 /* CFStreamAbstract.h */; };
+		EE0EAB95235FE50F00092813 /* CFStringEncodingConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1D5235D53B100C3B139 /* CFStringEncodingConverter.h */; };
+		EE0EAB96235FE50F00092813 /* CFCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA256235D53B100C3B139 /* CFCalendar.h */; };
+		EE0EAB97235FE50F00092813 /* CFStringEncodingConverterExt.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1D6235D53B100C3B139 /* CFStringEncodingConverterExt.h */; };
+		EE0EAB98235FE50F00092813 /* CFTree.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2B1235D53B100C3B139 /* CFTree.h */; };
+		EE0EAB99235FE50F00092813 /* CFPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA295235D53B100C3B139 /* CFPriv.h */; };
+		EE0EAB9A235FE50F00092813 /* CFXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA225235D53B100C3B139 /* CFXMLParser.h */; };
+		EE0EAB9B235FE50F00092813 /* CFStream.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1FF235D53B100C3B139 /* CFStream.h */; };
+		EE0EAB9C235FE50F00092813 /* CFKnownLocations.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA282235D53B100C3B139 /* CFKnownLocations.h */; };
+		EE0EAB9D235FE50F00092813 /* CFTimeZone.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA27B235D53B100C3B139 /* CFTimeZone.h */; };
+		EE0EAB9E235FE50F00092813 /* CFURLPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1E9235D53B100C3B139 /* CFURLPriv.h */; };
+		EE0EAB9F235FE50F00092813 /* CFUnicodeDecomposition.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1D4235D53B100C3B139 /* CFUnicodeDecomposition.h */; };
+		EE0EABA0235FE50F00092813 /* CFPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2A4235D53B100C3B139 /* CFPreferences.h */; };
+		EE0EABA1235FE50F00092813 /* CoreFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA299235D53B100C3B139 /* CoreFoundation.h */; };
+		EE0EABA2235FE50F00092813 /* CFRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA284235D53B100C3B139 /* CFRuntime.h */; };
+		EE0EABA3235FE50F00092813 /* CFRegularExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA264235D53B100C3B139 /* CFRegularExpression.h */; };
+		EE0EABA4235FE50F00092813 /* CFLocale_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA259235D53B100C3B139 /* CFLocale_Private.h */; };
+		EE0EABA5235FE50F00092813 /* CFXMLInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA21B235D53B100C3B139 /* CFXMLInterface.h */; };
+		EE0EABA6235FE50F00092813 /* CFXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA21E235D53B100C3B139 /* CFXMLNode.h */; };
+		EE0EABA7235FE50F00092813 /* CFNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA27C235D53B100C3B139 /* CFNumber.h */; };
+		EE0EABA8235FE50F00092813 /* CFLocaleInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA250235D53B100C3B139 /* CFLocaleInternal.h */; };
+		EE0EABA9235FE50F00092813 /* CFBitVector.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2B8235D53B100C3B139 /* CFBitVector.h */; };
+		EE0EABAA235FE50F00092813 /* CFPropertyList_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA228235D53B100C3B139 /* CFPropertyList_Private.h */; };
+		EE0EABAB235FE50F00092813 /* CFAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA286235D53B100C3B139 /* CFAvailability.h */; };
+		EE0EABAC235FE50F00092813 /* CFLocale.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA24E235D53B100C3B139 /* CFLocale.h */; };
+		EE0EABAD235FE50F00092813 /* WindowsResources.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1CD235D53B100C3B139 /* WindowsResources.h */; };
+		EE0EABAE235FE50F00092813 /* CFMessagePort.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA207235D53B100C3B139 /* CFMessagePort.h */; };
+		EE0EABAF235FE50F00092813 /* CFMachPort_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA20E235D53B100C3B139 /* CFMachPort_Internal.h */; };
+		EE0EABB0235FE50F00092813 /* CFOverflow.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA283235D53B100C3B139 /* CFOverflow.h */; };
+		EE0EABB1235FE50F00092813 /* CFUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA280235D53B100C3B139 /* CFUUID.h */; };
+		EE0EABB2235FE50F00092813 /* CFDateComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA252235D53B100C3B139 /* CFDateComponents.h */; };
+		EE0EABB3235FE50F00092813 /* CFSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA20A235D53B100C3B139 /* CFSocket.h */; };
+		EE0EABB4235FE50F00092813 /* CFError_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1F6235D53B100C3B139 /* CFError_Private.h */; };
+		EE0EABB5235FE50F00092813 /* CFUniChar.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1DD235D53B100C3B139 /* CFUniChar.h */; };
+		EE0EABB6235FE50F00092813 /* CFUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA29D235D53B100C3B139 /* CFUtilities.h */; };
+		EE0EABB7235FE50F00092813 /* CFLocking.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2A0235D53B100C3B139 /* CFLocking.h */; };
+		EE0EABB8235FE50F00092813 /* CFBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA22C235D53B100C3B139 /* CFBundle.h */; };
+		EE0EABB9235FE50F00092813 /* CFRunArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA266235D53B100C3B139 /* CFRunArray.h */; };
+		EE0EABBA235FE50F00092813 /* CFByteOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA296235D53B100C3B139 /* CFByteOrder.h */; };
+		EE0EABBB235FE50F00092813 /* CFBinaryHeap.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2BB235D53B100C3B139 /* CFBinaryHeap.h */; };
+		EE0EABBC235FE50F00092813 /* CFBundlePriv.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA237235D53B100C3B139 /* CFBundlePriv.h */; };
+		EE0EABBD235FE50F00092813 /* ForSwiftFoundationOnly.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2A2235D53B100C3B139 /* ForSwiftFoundationOnly.h */; };
+		EE0EABBE235FE50F00092813 /* CFLogUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA291235D53B100C3B139 /* CFLogUtilities.h */; };
+		EE0EABBF235FE50F00092813 /* CFAttributedStringPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA270235D53B100C3B139 /* CFAttributedStringPriv.h */; };
+		EE0EABC0235FE50F00092813 /* CFDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2AD235D53B100C3B139 /* CFDictionary.h */; };
+		EE0EABC1235FE50F00092813 /* CFDateInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA245235D53B100C3B139 /* CFDateInterval.h */; };
+		EE0EABC2235FE50F00092813 /* CFPlugInCOM.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA232235D53B100C3B139 /* CFPlugInCOM.h */; };
+		EE0EABC3235FE50F00092813 /* CFICUConverters.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1DB235D53B100C3B139 /* CFICUConverters.h */; };
+		EE0EABC4235FE50F00092813 /* CFStringLocalizedFormattingInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA243235D53B100C3B139 /* CFStringLocalizedFormattingInternal.h */; };
+		EE0EABC5235FE50F00092813 /* CFURLSessionInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1E5235D53B100C3B139 /* CFURLSessionInterface.h */; };
+		EE0EABC6235FE50F00092813 /* ForFoundationOnly.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA288235D53B100C3B139 /* ForFoundationOnly.h */; };
+		EE0EABC7235FE50F00092813 /* CFICULogging.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA24B235D53B100C3B139 /* CFICULogging.h */; };
+		EE0EABC8235FE50F00092813 /* CFStringEncodingExt.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA272235D53B100C3B139 /* CFStringEncodingExt.h */; };
+		EE0EABC9235FE50F00092813 /* CFCalendar_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA246235D53B100C3B139 /* CFCalendar_Internal.h */; };
+		EE0EABCA235FE50F00092813 /* CoreFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA289235D53B100C3B139 /* CoreFoundation.h */; };
+		EE0EABCB235FE50F00092813 /* CFStringEncodingConverterPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1D0235D53B100C3B139 /* CFStringEncodingConverterPriv.h */; };
+		EE0EABCC235FE50F00092813 /* TargetConditionals.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA29A235D53B100C3B139 /* TargetConditionals.h */; };
+		EE0EABCD235FE50F00092813 /* CFCollections_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2B4235D53B100C3B139 /* CFCollections_Internal.h */; };
+		EE0EABCE235FE50F00092813 /* CFNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA24F235D53B100C3B139 /* CFNumberFormatter.h */; };
+		EE0EABCF235FE50F00092813 /* CFURL.inc.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1E2235D53B100C3B139 /* CFURL.inc.h */; };
+		EE0EABD0235FE50F00092813 /* CFAsmMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA281235D53B100C3B139 /* CFAsmMacros.h */; };
+		EE0EABD1235FE50F00092813 /* CFInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA297235D53B100C3B139 /* CFInternal.h */; };
+		EE0EABD2235FE50F00092813 /* CFUnicodePrecomposition.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1D3235D53B100C3B139 /* CFUnicodePrecomposition.h */; };
+		EE0EABD3235FE50F00092813 /* CFStringEncodingDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1DC235D53B100C3B139 /* CFStringEncodingDatabase.h */; };
+		EE0EABD4235FE50F00092813 /* CFUniCharPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1CF235D53B100C3B139 /* CFUniCharPriv.h */; };
+		EE0EABD5235FE50F00092813 /* CFDateFormatter_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA244235D53B100C3B139 /* CFDateFormatter_Private.h */; };
+		EE0EABD6235FE50F00092813 /* CFDate.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA27A235D53B100C3B139 /* CFDate.h */; };
+		EE0EABD7235FE50F00092813 /* CFArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2AB235D53B100C3B139 /* CFArray.h */; };
+		EE0EABD8235FE50F00092813 /* CFError.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1F5235D53B100C3B139 /* CFError.h */; };
+		EE0EABD9235FE50F00092813 /* CFUserNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA217235D53B100C3B139 /* CFUserNotification.h */; };
+		EE0EABDA235FE50F00092813 /* CFStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2AF235D53B100C3B139 /* CFStorage.h */; };
+		EE0EABDB235FE50F00092813 /* CFBasicHash.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2BA235D53B100C3B139 /* CFBasicHash.h */; };
+		EE0EABDC235FE50F00092813 /* CFSet.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2BD235D53B100C3B139 /* CFSet.h */; };
+		EE0EABDD235FE50F00092813 /* CoreFoundation_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA285235D53B100C3B139 /* CoreFoundation_Prefix.h */; };
+		EE0EABDE235FE50F00092813 /* CFStringLocalizedFormattingInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA25D235D53B100C3B139 /* CFStringLocalizedFormattingInternal.h */; };
+		EE0EABDF235FE50F00092813 /* CFPlugIn.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA233235D53B100C3B139 /* CFPlugIn.h */; };
+		EE0EABE0235FE50F00092813 /* CFDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA24A235D53B100C3B139 /* CFDateFormatter.h */; };
+		EE0EABE1235FE50F00092813 /* CFBag.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2A9235D53B100C3B139 /* CFBag.h */; };
+		EE0EABE2235FE50F00092813 /* CFRunLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA20B235D53B100C3B139 /* CFRunLoop.h */; };
+		EE0EABE3235FE50F00092813 /* CFDateIntervalFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA248235D53B100C3B139 /* CFDateIntervalFormatter.h */; };
+		EE0EABE4235FE50F00092813 /* CFCharacterSet.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA263235D53B100C3B139 /* CFCharacterSet.h */; };
+		EE0EABE5235FE50F00092813 /* CFURLComponents_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1EB235D53B100C3B139 /* CFURLComponents_Internal.h */; };
+		EE0EABE6235FE50F00092813 /* CFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1E8235D53B100C3B139 /* CFURL.h */; };
+		EE0EABE7235FE50F00092813 /* CFBundle_BinaryTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA230235D53B100C3B139 /* CFBundle_BinaryTypes.h */; };
+		EE0EABE8235FE50F00092813 /* CFStreamInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA200235D53B100C3B139 /* CFStreamInternal.h */; };
+		EE0EABE9235FE50F00092813 /* CFBundle_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA22D235D53B100C3B139 /* CFBundle_Internal.h */; };
+		EE0EABEA235FE50F00092813 /* CFURLComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA1ED235D53B100C3B139 /* CFURLComponents.h */; };
+		EE0EABEB235FE50F00092813 /* CFMachPort_Lifetime.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA209235D53B100C3B139 /* CFMachPort_Lifetime.h */; };
+		EE0EABEC235FE50F00092813 /* CFPlugIn_Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA231235D53B100C3B139 /* CFPlugIn_Factory.h */; };
+		EE0EABED235FE50F00092813 /* CFData.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA2B3235D53B100C3B139 /* CFData.h */; };
+		EE0EABEE235FE50F00092813 /* CFString.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA26B235D53B100C3B139 /* CFString.h */; };
+		EE0EABEF235FE50F00092813 /* CFStreamPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA201235D53B100C3B139 /* CFStreamPriv.h */; };
+		EE0EABF0235FE50F00092813 /* CFXMLInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA21A235D53B100C3B139 /* CFXMLInputStream.h */; };
+		EE0EABF1235FE50F00092813 /* CFRuntime_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA29E235D53B100C3B139 /* CFRuntime_Internal.h */; };
+		EE0EABF2235FE50F00092813 /* CFNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA216235D53B100C3B139 /* CFNotificationCenter.h */; };
+		EE0EABF3235FE50F00092813 /* CFCharacterSetPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA273235D53B100C3B139 /* CFCharacterSetPriv.h */; };
+		EE0EABF5235FE50F00092813 /* CFBundle_Locale.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA234235D53B100C3B139 /* CFBundle_Locale.c */; };
+		EE0EABF6235FE50F00092813 /* CFBurstTrie.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA274235D53B100C3B139 /* CFBurstTrie.c */; };
+		EE0EABF7235FE50F00092813 /* CFStream.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA203235D53B100C3B139 /* CFStream.c */; };
+		EE0EABF8235FE50F00092813 /* CFDateComponents.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA247235D53B100C3B139 /* CFDateComponents.c */; };
+		EE0EABF9235FE50F00092813 /* CFPropertyList.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA21C235D53B100C3B139 /* CFPropertyList.c */; };
+		EE0EABFA235FE50F00092813 /* CFPlugIn.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA241235D53B100C3B139 /* CFPlugIn.c */; };
+		EE0EABFB235FE50F00092813 /* CFData.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2BE235D53B100C3B139 /* CFData.c */; };
+		EE0EABFC235FE50F00092813 /* CFFileUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA28F235D53B100C3B139 /* CFFileUtilities.c */; };
+		EE0EABFD235FE50F00092813 /* CFRuntime.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA292235D53B100C3B139 /* CFRuntime.c */; };
+		EE0EABFE235FE50F00092813 /* CFSortFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA28D235D53B100C3B139 /* CFSortFunctions.c */; };
+		EE0EABFF235FE50F00092813 /* CFMessagePort.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA20D235D53B100C3B139 /* CFMessagePort.c */; };
+		EE0EAC00235FE50F00092813 /* CFBinaryHeap.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2B2235D53B100C3B139 /* CFBinaryHeap.c */; };
+		EE0EAC01235FE50F00092813 /* CFSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA206235D53B100C3B139 /* CFSocket.c */; };
+		EE0EAC02235FE50F00092813 /* CFStringTransform.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA261235D53B100C3B139 /* CFStringTransform.c */; };
+		EE0EAC03235FE50F00092813 /* CFTimeZone.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA279235D53B100C3B139 /* CFTimeZone.c */; };
+		EE0EAC04235FE50F00092813 /* CFUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA28E235D53B100C3B139 /* CFUtilities.c */; };
+		EE0EAC05235FE50F00092813 /* CFBundle_Grok.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA23F235D53B100C3B139 /* CFBundle_Grok.c */; };
+		EE0EAC06235FE50F00092813 /* CFStringUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA26D235D53B100C3B139 /* CFStringUtilities.c */; };
+		EE0EAC07235FE50F00092813 /* CFTree.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2BC235D53B100C3B139 /* CFTree.c */; };
+		EE0EAC08235FE50F00092813 /* CFURLComponents_URIParser.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1E1235D53B100C3B139 /* CFURLComponents_URIParser.c */; };
+		EE0EAC09235FE50F00092813 /* CFICUConverters.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1D2235D53B100C3B139 /* CFICUConverters.c */; };
+		EE0EAC0A235FE50F00092813 /* CFPlatformConverters.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1DA235D53B100C3B139 /* CFPlatformConverters.c */; };
+		EE0EAC0B235FE50F00092813 /* CFRunArray.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA275235D53B100C3B139 /* CFRunArray.c */; };
+		EE0EAC0C235FE50F00092813 /* CFCalendar_Enumerate.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA24D235D53B100C3B139 /* CFCalendar_Enumerate.c */; };
+		EE0EAC0D235FE50F00092813 /* CFApplicationPreferences.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2A5235D53B100C3B139 /* CFApplicationPreferences.c */; };
+		EE0EAC0E235FE50F00092813 /* CFOldStylePList.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA220235D53B100C3B139 /* CFOldStylePList.c */; };
+		EE0EAC0F235FE50F00092813 /* CFBuiltinConverters.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1D8235D53B100C3B139 /* CFBuiltinConverters.c */; };
+		EE0EAC10235FE50F00092813 /* CFURL.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1E3235D53B100C3B139 /* CFURL.c */; };
+		EE0EAC11235FE50F00092813 /* CFDateInterval.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA251235D53B100C3B139 /* CFDateInterval.c */; };
+		EE0EAC12235FE50F00092813 /* CFURLSessionInterface.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1EA235D53B100C3B139 /* CFURLSessionInterface.c */; };
+		EE0EAC13235FE50F00092813 /* CFAttributedString.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA260235D53B100C3B139 /* CFAttributedString.c */; };
+		EE0EAC14235FE50F00092813 /* CFLocaleKeys.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA24C235D53B100C3B139 /* CFLocaleKeys.c */; };
+		EE0EAC15235FE50F00092813 /* CFURLAccess.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1EE235D53B100C3B139 /* CFURLAccess.c */; };
+		EE0EAC16235FE50F00092813 /* CFRegularExpression.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA26F235D53B100C3B139 /* CFRegularExpression.c */; };
+		EE0EAC17235FE50F00092813 /* CFStringEncodingConverter.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1DE235D53B100C3B139 /* CFStringEncodingConverter.c */; };
+		EE0EAC18235FE50F00092813 /* CFDate.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA27E235D53B100C3B139 /* CFDate.c */; };
+		EE0EAC19235FE50F00092813 /* CFPlatform.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA29B235D53B100C3B139 /* CFPlatform.c */; };
+		EE0EAC1A235FE50F00092813 /* CFString.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA25F235D53B100C3B139 /* CFString.c */; };
+		EE0EAC1B235FE50F00092813 /* CFWindowsUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2A1235D53B100C3B139 /* CFWindowsUtilities.c */; };
+		EE0EAC1C235FE50F00092813 /* CFBundle_Executable.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA22B235D53B100C3B139 /* CFBundle_Executable.c */; };
+		EE0EAC1D235FE50F00092813 /* CFSet.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2B0235D53B100C3B139 /* CFSet.c */; };
+		EE0EAC1E235FE50F00092813 /* CFBag.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2B5235D53B100C3B139 /* CFBag.c */; };
+		EE0EAC1F235FE50F00092813 /* CFDateFormatter.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA254235D53B100C3B139 /* CFDateFormatter.c */; };
+		EE0EAC20235FE50F00092813 /* CFLocale.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA258235D53B100C3B139 /* CFLocale.c */; };
+		EE0EAC21235FE50F00092813 /* CFNumberFormatter.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA257235D53B100C3B139 /* CFNumberFormatter.c */; };
+		EE0EAC22235FE50F00092813 /* CFXMLInputStream.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA222235D53B100C3B139 /* CFXMLInputStream.c */; };
+		EE0EAC23235FE50F00092813 /* CFUUID.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA293235D53B100C3B139 /* CFUUID.c */; };
+		EE0EAC24235FE50F00092813 /* CFBinaryPList.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA21D235D53B100C3B139 /* CFBinaryPList.c */; };
+		EE0EAC25235FE50F00092813 /* CFStringScanner.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA26C235D53B100C3B139 /* CFStringScanner.c */; };
+		EE0EAC26235FE50F00092813 /* CFError.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1F4235D53B100C3B139 /* CFError.c */; };
+		EE0EAC27235FE50F00092813 /* CFXMLTree.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA226235D53B100C3B139 /* CFXMLTree.c */; };
+		EE0EAC28235FE50F00092813 /* CFPreferences.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2A6235D53B100C3B139 /* CFPreferences.c */; };
+		EE0EAC29235FE50F00092813 /* CFStringEncodings.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA271235D53B100C3B139 /* CFStringEncodings.c */; };
+		EE0EAC2A235FE50F00092813 /* CFBasicHash.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2AA235D53B100C3B139 /* CFBasicHash.c */; };
+		EE0EAC2B235FE50F00092813 /* CFBundle_DebugStrings.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA239235D53B100C3B139 /* CFBundle_DebugStrings.c */; };
+		EE0EAC2C235FE50F00092813 /* CFKnownLocations.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA294235D53B100C3B139 /* CFKnownLocations.c */; };
+		EE0EAC2D235FE50F00092813 /* CFUserNotification.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA218235D53B100C3B139 /* CFUserNotification.c */; };
+		EE0EAC2E235FE50F00092813 /* CFCharacterSet.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA268235D53B100C3B139 /* CFCharacterSet.c */; };
+		EE0EAC2F235FE50F00092813 /* CFBitVector.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2AC235D53B100C3B139 /* CFBitVector.c */; };
+		EE0EAC30235FE50F00092813 /* CFDictionary.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2B7235D53B100C3B139 /* CFDictionary.c */; };
+		EE0EAC31235FE50F00092813 /* CFMachPort.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA20C235D53B100C3B139 /* CFMachPort.c */; };
+		EE0EAC32235FE50F00092813 /* CFNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA278235D53B100C3B139 /* CFNumber.c */; };
+		EE0EAC33235FE50F00092813 /* CFCalendar.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA249235D53B100C3B139 /* CFCalendar.c */; };
+		EE0EAC34235FE50F00092813 /* CFUnicodeDecomposition.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1DF235D53B100C3B139 /* CFUnicodeDecomposition.c */; };
+		EE0EAC35235FE50F00092813 /* CFPlugIn_Instance.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA23B235D53B100C3B139 /* CFPlugIn_Instance.c */; };
+		EE0EAC36235FE50F00092813 /* CFBigNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA27D235D53B100C3B139 /* CFBigNumber.c */; };
+		EE0EAC37235FE50F00092813 /* CFBundle_Strings.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA235235D53B100C3B139 /* CFBundle_Strings.c */; };
+		EE0EAC38235FE50F00092813 /* CFPlugIn_Factory.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA23D235D53B100C3B139 /* CFPlugIn_Factory.c */; };
+		EE0EAC39235FE50F00092813 /* CFBundle_Resources.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA22E235D53B100C3B139 /* CFBundle_Resources.c */; };
+		EE0EAC3A235FE50F00092813 /* CFXMLParser.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA21F235D53B100C3B139 /* CFXMLParser.c */; };
+		EE0EAC3B235FE50F00092813 /* CFURLComponents.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1E4235D53B100C3B139 /* CFURLComponents.c */; };
+		EE0EAC3C235FE50F00092813 /* CFXMLInterface.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA224235D53B100C3B139 /* CFXMLInterface.c */; };
+		EE0EAC3D235FE50F00092813 /* CFStringEncodingDatabase.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1D1235D53B100C3B139 /* CFStringEncodingDatabase.c */; };
+		EE0EAC3E235FE50F00092813 /* CFXMLPreferencesDomain.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2A7235D53B100C3B139 /* CFXMLPreferencesDomain.c */; };
+		EE0EAC3F235FE50F00092813 /* CFLocaleIdentifier.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA253235D53B100C3B139 /* CFLocaleIdentifier.c */; };
+		EE0EAC40235FE50F00092813 /* CFSocketStream.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA202235D53B100C3B139 /* CFSocketStream.c */; };
+		EE0EAC41235FE50F00092813 /* CFBase.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA28B235D53B100C3B139 /* CFBase.c */; };
+		EE0EAC42235FE50F00092813 /* CFBundle_InfoPlist.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA22F235D53B100C3B139 /* CFBundle_InfoPlist.c */; };
+		EE0EAC43235FE50F00092813 /* CFBundle_Tables.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA23E235D53B100C3B139 /* CFBundle_Tables.c */; };
+		EE0EAC44235FE50F00092813 /* CFBundle_ResourceFork.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA23C235D53B100C3B139 /* CFBundle_ResourceFork.c */; };
+		EE0EAC45235FE50F00092813 /* CFArray.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2B9235D53B100C3B139 /* CFArray.c */; };
+		EE0EAC46235FE50F00092813 /* CFUniChar.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1D7235D53B100C3B139 /* CFUniChar.c */; };
+		EE0EAC47235FE50F00092813 /* CFSystemDirectories.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA28A235D53B100C3B139 /* CFSystemDirectories.c */; };
+		EE0EAC48235FE50F00092813 /* CFPlugIn_PlugIn.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA240235D53B100C3B139 /* CFPlugIn_PlugIn.c */; };
+		EE0EAC49235FE50F00092813 /* CFUnicodePrecomposition.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1D9235D53B100C3B139 /* CFUnicodePrecomposition.c */; };
+		EE0EAC4A235FE50F00092813 /* CFXMLNode.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA227235D53B100C3B139 /* CFXMLNode.c */; };
+		EE0EAC4B235FE50F00092813 /* CFBundle_Binary.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA23A235D53B100C3B139 /* CFBundle_Binary.c */; };
+		EE0EAC4C235FE50F00092813 /* CFDateIntervalFormatter.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA255235D53B100C3B139 /* CFDateIntervalFormatter.c */; };
+		EE0EAC4D235FE50F00092813 /* CFConcreteStreams.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA1FD235D53B100C3B139 /* CFConcreteStreams.c */; };
+		EE0EAC4E235FE50F00092813 /* CFRunLoop.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA205235D53B100C3B139 /* CFRunLoop.c */; };
+		EE0EAC4F235FE50F00092813 /* CFStorage.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA2B6235D53B100C3B139 /* CFStorage.c */; };
+		EE0EAC51235FE50F00092813 /* CFMachPort_Lifetime.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA20F235D53B100C3B139 /* CFMachPort_Lifetime.c */; };
+		EE0EAC52235FE50F00092813 /* CFBundle_Main.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA236235D53B100C3B139 /* CFBundle_Main.c */; };
+		EE0EAC53235FE50F00092813 /* CFBundle.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBEA238235D53B100C3B139 /* CFBundle.c */; };
+		EE0EAC56235FE50F00092813 /* libobjc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D89791BBDADDF00234F36 /* libobjc.dylib */; };
+		EE0EAC57235FE50F00092813 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D89771BBDADDB00234F36 /* libz.dylib */; };
+		EE0EAC58235FE50F00092813 /* libcurl.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1FD9E01D6D178E0080E83C /* libcurl.3.dylib */; };
+		EE0EAC59235FE50F00092813 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D89751BBDADD300234F36 /* libicucore.dylib */; };
+		EE0EAC5A235FE50F00092813 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B40F9F31C12524C000E72E3 /* libxml2.dylib */; };
+		EE0EAC62235FE57B00092813 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EE0EAC61235FE57B00092813 /* main.c */; };
 		EE35A1BC235DA51300E54888 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EE35A1BB235DA51300E54888 /* main.c */; };
 		EE35A1CE235DA6A600E54888 /* CFString_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA25E235D53B100C3B139 /* CFString_Internal.h */; };
 		EE35A1CF235DA6A600E54888 /* CFMachPort.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBEA208235D53B100C3B139 /* CFMachPort.h */; };
@@ -634,6 +839,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		EE0EAC54235FE50F00092813 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EE35A297235DA6A600E54888 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -671,6 +885,9 @@
 		EA66F6611BF2DF7700136161 /* Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Block.h; path = closure/Block.h; sourceTree = "<group>"; };
 		EA66F6621BF2DF7700136161 /* data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = data.c; path = closure/data.c; sourceTree = "<group>"; };
 		EA66F6631BF2DF7700136161 /* runtime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = runtime.c; path = closure/runtime.c; sourceTree = "<group>"; };
+		EE0EAC5E235FE50F00092813 /* 003-runloop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "003-runloop"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0EAC60235FE57B00092813 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE0EAC61235FE57B00092813 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EE35A1BA235DA51300E54888 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EE35A1BB235DA51300E54888 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EE35A1C4235DA54600E54888 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -928,6 +1145,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE0EAC55235FE50F00092813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0EAC56235FE50F00092813 /* libobjc.dylib in Frameworks */,
+				EE0EAC57235FE50F00092813 /* libz.dylib in Frameworks */,
+				EE0EAC58235FE50F00092813 /* libcurl.3.dylib in Frameworks */,
+				EE0EAC59235FE50F00092813 /* libicucore.dylib in Frameworks */,
+				EE0EAC5A235FE50F00092813 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE35A298235DA6A600E54888 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -980,6 +1209,7 @@
 				1550106A22EA24D10088F082 /* libCFXMLInterface.a */,
 				EEBEA4C7235D957C00C3B139 /* 002-array */,
 				EE35A2A1235DA6A600E54888 /* 001-log */,
+				EE0EAC5E235FE50F00092813 /* 003-runloop */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1023,6 +1253,15 @@
 				EA66F6631BF2DF7700136161 /* runtime.c */,
 			);
 			name = closure;
+			sourceTree = "<group>";
+		};
+		EE0EAC5F235FE57B00092813 /* 003-runloop */ = {
+			isa = PBXGroup;
+			children = (
+				EE0EAC60235FE57B00092813 /* README.md */,
+				EE0EAC61235FE57B00092813 /* main.c */,
+			);
+			path = "003-runloop";
 			sourceTree = "<group>";
 		};
 		EE35A1B9235DA51300E54888 /* 002-array */ = {
@@ -1436,6 +1675,7 @@
 			children = (
 				EE35A1BD235DA53200E54888 /* 001-log */,
 				EE35A1B9235DA51300E54888 /* 002-array */,
+				EE0EAC5F235FE57B00092813 /* 003-runloop */,
 			);
 			path = CFCases;
 			sourceTree = "<group>";
@@ -1566,6 +1806,118 @@
 				EEBEA3C0235D53B200C3B139 /* CFRuntime_Internal.h in Headers */,
 				EEBEA309235D53B100C3B139 /* CFNotificationCenter.h in Headers */,
 				EEBEA38C235D53B200C3B139 /* CFCharacterSetPriv.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0EAB8A235FE50F00092813 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0EAB8B235FE50F00092813 /* CFString_Internal.h in Headers */,
+				EE0EAB8C235FE50F00092813 /* CFMachPort.h in Headers */,
+				EE0EAB8D235FE50F00092813 /* CFAttributedString.h in Headers */,
+				EE0EAB8E235FE50F00092813 /* CFBurstTrie.h in Headers */,
+				EE0EAB8F235FE50F00092813 /* CFBase.h in Headers */,
+				EE0EAB90235FE50F00092813 /* CFPropertyList.h in Headers */,
+				EE0EAB91235FE50F00092813 /* CFStringDefaultEncoding.h in Headers */,
+				EE0EAB92235FE50F00092813 /* CFURLAccess.h in Headers */,
+				EE0EAB93235FE50F00092813 /* CFBigNumber.h in Headers */,
+				EE0EAB94235FE50F00092813 /* CFStreamAbstract.h in Headers */,
+				EE0EAB95235FE50F00092813 /* CFStringEncodingConverter.h in Headers */,
+				EE0EAB96235FE50F00092813 /* CFCalendar.h in Headers */,
+				EE0EAB97235FE50F00092813 /* CFStringEncodingConverterExt.h in Headers */,
+				EE0EAB98235FE50F00092813 /* CFTree.h in Headers */,
+				EE0EAB99235FE50F00092813 /* CFPriv.h in Headers */,
+				EE0EAB9A235FE50F00092813 /* CFXMLParser.h in Headers */,
+				EE0EAB9B235FE50F00092813 /* CFStream.h in Headers */,
+				EE0EAB9C235FE50F00092813 /* CFKnownLocations.h in Headers */,
+				EE0EAB9D235FE50F00092813 /* CFTimeZone.h in Headers */,
+				EE0EAB9E235FE50F00092813 /* CFURLPriv.h in Headers */,
+				EE0EAB9F235FE50F00092813 /* CFUnicodeDecomposition.h in Headers */,
+				EE0EABA0235FE50F00092813 /* CFPreferences.h in Headers */,
+				EE0EABA1235FE50F00092813 /* CoreFoundation.h in Headers */,
+				EE0EABA2235FE50F00092813 /* CFRuntime.h in Headers */,
+				EE0EABA3235FE50F00092813 /* CFRegularExpression.h in Headers */,
+				EE0EABA4235FE50F00092813 /* CFLocale_Private.h in Headers */,
+				EE0EABA5235FE50F00092813 /* CFXMLInterface.h in Headers */,
+				EE0EABA6235FE50F00092813 /* CFXMLNode.h in Headers */,
+				EE0EABA7235FE50F00092813 /* CFNumber.h in Headers */,
+				EE0EABA8235FE50F00092813 /* CFLocaleInternal.h in Headers */,
+				EE0EABA9235FE50F00092813 /* CFBitVector.h in Headers */,
+				EE0EABAA235FE50F00092813 /* CFPropertyList_Private.h in Headers */,
+				EE0EABAB235FE50F00092813 /* CFAvailability.h in Headers */,
+				EE0EABAC235FE50F00092813 /* CFLocale.h in Headers */,
+				EE0EABAD235FE50F00092813 /* WindowsResources.h in Headers */,
+				EE0EABAE235FE50F00092813 /* CFMessagePort.h in Headers */,
+				EE0EABAF235FE50F00092813 /* CFMachPort_Internal.h in Headers */,
+				EE0EABB0235FE50F00092813 /* CFOverflow.h in Headers */,
+				EE0EABB1235FE50F00092813 /* CFUUID.h in Headers */,
+				EE0EABB2235FE50F00092813 /* CFDateComponents.h in Headers */,
+				EE0EABB3235FE50F00092813 /* CFSocket.h in Headers */,
+				EE0EABB4235FE50F00092813 /* CFError_Private.h in Headers */,
+				EE0EABB5235FE50F00092813 /* CFUniChar.h in Headers */,
+				EE0EABB6235FE50F00092813 /* CFUtilities.h in Headers */,
+				EE0EABB7235FE50F00092813 /* CFLocking.h in Headers */,
+				EE0EABB8235FE50F00092813 /* CFBundle.h in Headers */,
+				EE0EABB9235FE50F00092813 /* CFRunArray.h in Headers */,
+				EE0EABBA235FE50F00092813 /* CFByteOrder.h in Headers */,
+				EE0EABBB235FE50F00092813 /* CFBinaryHeap.h in Headers */,
+				EE0EABBC235FE50F00092813 /* CFBundlePriv.h in Headers */,
+				EE0EABBD235FE50F00092813 /* ForSwiftFoundationOnly.h in Headers */,
+				EE0EABBE235FE50F00092813 /* CFLogUtilities.h in Headers */,
+				EE0EABBF235FE50F00092813 /* CFAttributedStringPriv.h in Headers */,
+				EE0EABC0235FE50F00092813 /* CFDictionary.h in Headers */,
+				EE0EABC1235FE50F00092813 /* CFDateInterval.h in Headers */,
+				EE0EABC2235FE50F00092813 /* CFPlugInCOM.h in Headers */,
+				EE0EABC3235FE50F00092813 /* CFICUConverters.h in Headers */,
+				EE0EABC4235FE50F00092813 /* CFStringLocalizedFormattingInternal.h in Headers */,
+				EE0EABC5235FE50F00092813 /* CFURLSessionInterface.h in Headers */,
+				EE0EABC6235FE50F00092813 /* ForFoundationOnly.h in Headers */,
+				EE0EABC7235FE50F00092813 /* CFICULogging.h in Headers */,
+				EE0EABC8235FE50F00092813 /* CFStringEncodingExt.h in Headers */,
+				EE0EABC9235FE50F00092813 /* CFCalendar_Internal.h in Headers */,
+				EE0EABCA235FE50F00092813 /* CoreFoundation.h in Headers */,
+				EE0EABCB235FE50F00092813 /* CFStringEncodingConverterPriv.h in Headers */,
+				EE0EABCC235FE50F00092813 /* TargetConditionals.h in Headers */,
+				EE0EABCD235FE50F00092813 /* CFCollections_Internal.h in Headers */,
+				EE0EABCE235FE50F00092813 /* CFNumberFormatter.h in Headers */,
+				EE0EABCF235FE50F00092813 /* CFURL.inc.h in Headers */,
+				EE0EABD0235FE50F00092813 /* CFAsmMacros.h in Headers */,
+				EE0EABD1235FE50F00092813 /* CFInternal.h in Headers */,
+				EE0EABD2235FE50F00092813 /* CFUnicodePrecomposition.h in Headers */,
+				EE0EABD3235FE50F00092813 /* CFStringEncodingDatabase.h in Headers */,
+				EE0EABD4235FE50F00092813 /* CFUniCharPriv.h in Headers */,
+				EE0EABD5235FE50F00092813 /* CFDateFormatter_Private.h in Headers */,
+				EE0EABD6235FE50F00092813 /* CFDate.h in Headers */,
+				EE0EABD7235FE50F00092813 /* CFArray.h in Headers */,
+				EE0EABD8235FE50F00092813 /* CFError.h in Headers */,
+				EE0EABD9235FE50F00092813 /* CFUserNotification.h in Headers */,
+				EE0EABDA235FE50F00092813 /* CFStorage.h in Headers */,
+				EE0EABDB235FE50F00092813 /* CFBasicHash.h in Headers */,
+				EE0EABDC235FE50F00092813 /* CFSet.h in Headers */,
+				EE0EABDD235FE50F00092813 /* CoreFoundation_Prefix.h in Headers */,
+				EE0EABDE235FE50F00092813 /* CFStringLocalizedFormattingInternal.h in Headers */,
+				EE0EABDF235FE50F00092813 /* CFPlugIn.h in Headers */,
+				EE0EABE0235FE50F00092813 /* CFDateFormatter.h in Headers */,
+				EE0EABE1235FE50F00092813 /* CFBag.h in Headers */,
+				EE0EABE2235FE50F00092813 /* CFRunLoop.h in Headers */,
+				EE0EABE3235FE50F00092813 /* CFDateIntervalFormatter.h in Headers */,
+				EE0EABE4235FE50F00092813 /* CFCharacterSet.h in Headers */,
+				EE0EABE5235FE50F00092813 /* CFURLComponents_Internal.h in Headers */,
+				EE0EABE6235FE50F00092813 /* CFURL.h in Headers */,
+				EE0EABE7235FE50F00092813 /* CFBundle_BinaryTypes.h in Headers */,
+				EE0EABE8235FE50F00092813 /* CFStreamInternal.h in Headers */,
+				EE0EABE9235FE50F00092813 /* CFBundle_Internal.h in Headers */,
+				EE0EABEA235FE50F00092813 /* CFURLComponents.h in Headers */,
+				EE0EABEB235FE50F00092813 /* CFMachPort_Lifetime.h in Headers */,
+				EE0EABEC235FE50F00092813 /* CFPlugIn_Factory.h in Headers */,
+				EE0EABED235FE50F00092813 /* CFData.h in Headers */,
+				EE0EABEE235FE50F00092813 /* CFString.h in Headers */,
+				EE0EABEF235FE50F00092813 /* CFStreamPriv.h in Headers */,
+				EE0EABF0235FE50F00092813 /* CFXMLInputStream.h in Headers */,
+				EE0EABF1235FE50F00092813 /* CFRuntime_Internal.h in Headers */,
+				EE0EABF2235FE50F00092813 /* CFNotificationCenter.h in Headers */,
+				EE0EABF3235FE50F00092813 /* CFCharacterSetPriv.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1848,6 +2200,24 @@
 			productReference = 5B7C8A6E1BEA7F8F00C5B690 /* libCoreFoundation.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		EE0EAB89235FE50F00092813 /* 003-runloop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0EAC5B235FE50F00092813 /* Build configuration list for PBXNativeTarget "003-runloop" */;
+			buildPhases = (
+				EE0EAB8A235FE50F00092813 /* Headers */,
+				EE0EABF4235FE50F00092813 /* Sources */,
+				EE0EAC54235FE50F00092813 /* CopyFiles */,
+				EE0EAC55235FE50F00092813 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "003-runloop";
+			productName = "001-start";
+			productReference = EE0EAC5E235FE50F00092813 /* 003-runloop */;
+			productType = "com.apple.product-type.tool";
+		};
 		EE35A1CC235DA6A600E54888 /* 001-log */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE35A29E235DA6A600E54888 /* Build configuration list for PBXNativeTarget "001-log" */;
@@ -1899,6 +2269,10 @@
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Manual;
 					};
+					EE0EAB89235FE50F00092813 = {
+						DevelopmentTeam = Y39R442P5T;
+						ProvisioningStyle = Automatic;
+					};
 					EE35A1CC235DA6A600E54888 = {
 						DevelopmentTeam = Y39R442P5T;
 						ProvisioningStyle = Automatic;
@@ -1927,6 +2301,7 @@
 				15500FA722EA24D10088F082 /* CFXMLInterface */,
 				EEBEA3F2235D957C00C3B139 /* 002-array */,
 				EE35A1CC235DA6A600E54888 /* 001-log */,
+				EE0EAB89235FE50F00092813 /* 003-runloop */,
 			);
 		};
 /* End PBXProject section */
@@ -2044,6 +2419,108 @@
 				EEBEA35C235D53B200C3B139 /* CFDateInterval.c in Sources */,
 				EEBEA2F7235D53B100C3B139 /* CFStream.c in Sources */,
 				EEBEA348235D53B100C3B139 /* CFPlugIn.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0EABF4235FE50F00092813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0EABF5235FE50F00092813 /* CFBundle_Locale.c in Sources */,
+				EE0EABF6235FE50F00092813 /* CFBurstTrie.c in Sources */,
+				EE0EABF7235FE50F00092813 /* CFStream.c in Sources */,
+				EE0EABF8235FE50F00092813 /* CFDateComponents.c in Sources */,
+				EE0EABF9235FE50F00092813 /* CFPropertyList.c in Sources */,
+				EE0EABFA235FE50F00092813 /* CFPlugIn.c in Sources */,
+				EE0EABFB235FE50F00092813 /* CFData.c in Sources */,
+				EE0EABFC235FE50F00092813 /* CFFileUtilities.c in Sources */,
+				EE0EABFD235FE50F00092813 /* CFRuntime.c in Sources */,
+				EE0EABFE235FE50F00092813 /* CFSortFunctions.c in Sources */,
+				EE0EABFF235FE50F00092813 /* CFMessagePort.c in Sources */,
+				EE0EAC00235FE50F00092813 /* CFBinaryHeap.c in Sources */,
+				EE0EAC01235FE50F00092813 /* CFSocket.c in Sources */,
+				EE0EAC02235FE50F00092813 /* CFStringTransform.c in Sources */,
+				EE0EAC03235FE50F00092813 /* CFTimeZone.c in Sources */,
+				EE0EAC04235FE50F00092813 /* CFUtilities.c in Sources */,
+				EE0EAC05235FE50F00092813 /* CFBundle_Grok.c in Sources */,
+				EE0EAC06235FE50F00092813 /* CFStringUtilities.c in Sources */,
+				EE0EAC07235FE50F00092813 /* CFTree.c in Sources */,
+				EE0EAC08235FE50F00092813 /* CFURLComponents_URIParser.c in Sources */,
+				EE0EAC09235FE50F00092813 /* CFICUConverters.c in Sources */,
+				EE0EAC0A235FE50F00092813 /* CFPlatformConverters.c in Sources */,
+				EE0EAC0B235FE50F00092813 /* CFRunArray.c in Sources */,
+				EE0EAC0C235FE50F00092813 /* CFCalendar_Enumerate.c in Sources */,
+				EE0EAC0D235FE50F00092813 /* CFApplicationPreferences.c in Sources */,
+				EE0EAC0E235FE50F00092813 /* CFOldStylePList.c in Sources */,
+				EE0EAC0F235FE50F00092813 /* CFBuiltinConverters.c in Sources */,
+				EE0EAC10235FE50F00092813 /* CFURL.c in Sources */,
+				EE0EAC11235FE50F00092813 /* CFDateInterval.c in Sources */,
+				EE0EAC12235FE50F00092813 /* CFURLSessionInterface.c in Sources */,
+				EE0EAC13235FE50F00092813 /* CFAttributedString.c in Sources */,
+				EE0EAC14235FE50F00092813 /* CFLocaleKeys.c in Sources */,
+				EE0EAC15235FE50F00092813 /* CFURLAccess.c in Sources */,
+				EE0EAC16235FE50F00092813 /* CFRegularExpression.c in Sources */,
+				EE0EAC17235FE50F00092813 /* CFStringEncodingConverter.c in Sources */,
+				EE0EAC18235FE50F00092813 /* CFDate.c in Sources */,
+				EE0EAC19235FE50F00092813 /* CFPlatform.c in Sources */,
+				EE0EAC1A235FE50F00092813 /* CFString.c in Sources */,
+				EE0EAC1B235FE50F00092813 /* CFWindowsUtilities.c in Sources */,
+				EE0EAC1C235FE50F00092813 /* CFBundle_Executable.c in Sources */,
+				EE0EAC1D235FE50F00092813 /* CFSet.c in Sources */,
+				EE0EAC1E235FE50F00092813 /* CFBag.c in Sources */,
+				EE0EAC1F235FE50F00092813 /* CFDateFormatter.c in Sources */,
+				EE0EAC20235FE50F00092813 /* CFLocale.c in Sources */,
+				EE0EAC21235FE50F00092813 /* CFNumberFormatter.c in Sources */,
+				EE0EAC22235FE50F00092813 /* CFXMLInputStream.c in Sources */,
+				EE0EAC23235FE50F00092813 /* CFUUID.c in Sources */,
+				EE0EAC24235FE50F00092813 /* CFBinaryPList.c in Sources */,
+				EE0EAC25235FE50F00092813 /* CFStringScanner.c in Sources */,
+				EE0EAC26235FE50F00092813 /* CFError.c in Sources */,
+				EE0EAC27235FE50F00092813 /* CFXMLTree.c in Sources */,
+				EE0EAC28235FE50F00092813 /* CFPreferences.c in Sources */,
+				EE0EAC29235FE50F00092813 /* CFStringEncodings.c in Sources */,
+				EE0EAC2A235FE50F00092813 /* CFBasicHash.c in Sources */,
+				EE0EAC2B235FE50F00092813 /* CFBundle_DebugStrings.c in Sources */,
+				EE0EAC2C235FE50F00092813 /* CFKnownLocations.c in Sources */,
+				EE0EAC2D235FE50F00092813 /* CFUserNotification.c in Sources */,
+				EE0EAC2E235FE50F00092813 /* CFCharacterSet.c in Sources */,
+				EE0EAC2F235FE50F00092813 /* CFBitVector.c in Sources */,
+				EE0EAC30235FE50F00092813 /* CFDictionary.c in Sources */,
+				EE0EAC31235FE50F00092813 /* CFMachPort.c in Sources */,
+				EE0EAC32235FE50F00092813 /* CFNumber.c in Sources */,
+				EE0EAC33235FE50F00092813 /* CFCalendar.c in Sources */,
+				EE0EAC34235FE50F00092813 /* CFUnicodeDecomposition.c in Sources */,
+				EE0EAC35235FE50F00092813 /* CFPlugIn_Instance.c in Sources */,
+				EE0EAC36235FE50F00092813 /* CFBigNumber.c in Sources */,
+				EE0EAC37235FE50F00092813 /* CFBundle_Strings.c in Sources */,
+				EE0EAC38235FE50F00092813 /* CFPlugIn_Factory.c in Sources */,
+				EE0EAC39235FE50F00092813 /* CFBundle_Resources.c in Sources */,
+				EE0EAC3A235FE50F00092813 /* CFXMLParser.c in Sources */,
+				EE0EAC3B235FE50F00092813 /* CFURLComponents.c in Sources */,
+				EE0EAC3C235FE50F00092813 /* CFXMLInterface.c in Sources */,
+				EE0EAC3D235FE50F00092813 /* CFStringEncodingDatabase.c in Sources */,
+				EE0EAC3E235FE50F00092813 /* CFXMLPreferencesDomain.c in Sources */,
+				EE0EAC3F235FE50F00092813 /* CFLocaleIdentifier.c in Sources */,
+				EE0EAC40235FE50F00092813 /* CFSocketStream.c in Sources */,
+				EE0EAC41235FE50F00092813 /* CFBase.c in Sources */,
+				EE0EAC42235FE50F00092813 /* CFBundle_InfoPlist.c in Sources */,
+				EE0EAC43235FE50F00092813 /* CFBundle_Tables.c in Sources */,
+				EE0EAC44235FE50F00092813 /* CFBundle_ResourceFork.c in Sources */,
+				EE0EAC62235FE57B00092813 /* main.c in Sources */,
+				EE0EAC45235FE50F00092813 /* CFArray.c in Sources */,
+				EE0EAC46235FE50F00092813 /* CFUniChar.c in Sources */,
+				EE0EAC47235FE50F00092813 /* CFSystemDirectories.c in Sources */,
+				EE0EAC48235FE50F00092813 /* CFPlugIn_PlugIn.c in Sources */,
+				EE0EAC49235FE50F00092813 /* CFUnicodePrecomposition.c in Sources */,
+				EE0EAC4A235FE50F00092813 /* CFXMLNode.c in Sources */,
+				EE0EAC4B235FE50F00092813 /* CFBundle_Binary.c in Sources */,
+				EE0EAC4C235FE50F00092813 /* CFDateIntervalFormatter.c in Sources */,
+				EE0EAC4D235FE50F00092813 /* CFConcreteStreams.c in Sources */,
+				EE0EAC4E235FE50F00092813 /* CFRunLoop.c in Sources */,
+				EE0EAC4F235FE50F00092813 /* CFStorage.c in Sources */,
+				EE0EAC51235FE50F00092813 /* CFMachPort_Lifetime.c in Sources */,
+				EE0EAC52235FE50F00092813 /* CFBundle_Main.c in Sources */,
+				EE0EAC53235FE50F00092813 /* CFBundle.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2625,6 +3102,111 @@
 			};
 			name = Release;
 		};
+		EE0EAC5C235FE50F00092813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y39R442P5T;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREFIX_HEADER = CoreFoundation/Base.subproj/CoreFoundation_Prefix.h;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					INCLUDE_OBJC,
+					DEPLOYMENT_TARGET_MACOSX,
+				);
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = (
+					"-DCF_BUILDING_CF",
+					"-DDEPLOYMENT_ENABLE_LIBDISPATCH",
+					"-I$(SRCROOT)/bootstrap/common/usr/include",
+					"-I$(SRCROOT)/bootstrap/x86_64-apple-darwin/usr/include",
+					"-I$(SRCROOT)/bootstrap/common/usr/local/include",
+					"-I$(SRCROOT)/bootstrap/x86_64-apple-darwin/usr/local/include",
+					"-g3",
+					"-fconstant-cfstrings",
+					"-fexceptions",
+					"-Wno-shorten-64-to-32",
+					"-Wno-deprecated-declarations",
+					"-Wno-unreachable-code",
+					"-Wno-conditional-uninitialized",
+					"-Wno-unused-variable",
+					"-Wno-int-conversion",
+					"-Wno-unused-function",
+					"-DHAVE_STRUCT_TIMESPEC",
+					"-DCF_CHARACTERSET_UNICODE_DATA_L=\\\\\"CoreFoundation/CharacterSets/CFUnicodeData-L.mapping\\\\\"",
+					"-DCF_CHARACTERSET_UNICODE_DATA_B=\\\\\"CoreFoundation/CharacterSets/CFUnicodeData-B.mapping\\\\\"",
+					"-DCF_CHARACTERSET_UNICHAR_DB=\\\\\"CoreFoundation/CharacterSets/CFUniCharPropertyDatabase.data\\\\\"",
+					"-DCF_CHARACTERSET_BITMAP=\\\\\"CoreFoundation/CharacterSets/CFCharacterSetBitmaps.bitmap\\\\\"",
+					"-Wno-format-security",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/CoreFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/CoreFoundation;
+			};
+			name = Debug;
+		};
+		EE0EAC5D235FE50F00092813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y39R442P5T;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREFIX_HEADER = CoreFoundation/Base.subproj/CoreFoundation_Prefix.h;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = (
+					"-DCF_BUILDING_CF",
+					"-DDEPLOYMENT_ENABLE_LIBDISPATCH",
+					"-I$(SRCROOT)/bootstrap/common/usr/include",
+					"-I$(SRCROOT)/bootstrap/x86_64-apple-darwin/usr/include",
+					"-I$(SRCROOT)/bootstrap/common/usr/local/include",
+					"-I$(SRCROOT)/bootstrap/x86_64-apple-darwin/usr/local/include",
+					"-g3",
+					"-fconstant-cfstrings",
+					"-fexceptions",
+					"-Wno-shorten-64-to-32",
+					"-Wno-deprecated-declarations",
+					"-Wno-unreachable-code",
+					"-Wno-conditional-uninitialized",
+					"-Wno-unused-variable",
+					"-Wno-int-conversion",
+					"-Wno-unused-function",
+					"-DHAVE_STRUCT_TIMESPEC",
+					"-DCF_CHARACTERSET_UNICODE_DATA_L=\\\\\"CoreFoundation/CharacterSets/CFUnicodeData-L.mapping\\\\\"",
+					"-DCF_CHARACTERSET_UNICODE_DATA_B=\\\\\"CoreFoundation/CharacterSets/CFUnicodeData-B.mapping\\\\\"",
+					"-DCF_CHARACTERSET_UNICHAR_DB=\\\\\"CoreFoundation/CharacterSets/CFUniCharPropertyDatabase.data\\\\\"",
+					"-DCF_CHARACTERSET_BITMAP=\\\\\"CoreFoundation/CharacterSets/CFCharacterSetBitmaps.bitmap\\\\\"",
+					"-Wno-format-security",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/CoreFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/CoreFoundation;
+			};
+			name = Release;
+		};
 		EE35A29F235DA6A600E54888 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2870,6 +3452,15 @@
 			buildConfigurations = (
 				5B7C8A6F1BEA7F8F00C5B690 /* Debug */,
 				5B7C8A701BEA7F8F00C5B690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0EAC5B235FE50F00092813 /* Build configuration list for PBXNativeTarget "003-runloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0EAC5C235FE50F00092813 /* Debug */,
+				EE0EAC5D235FE50F00092813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

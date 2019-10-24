@@ -8,9 +8,10 @@
 
 #include <stdio.h>
 #include "CoreFoundation.h"
+#include <limits.h>
 
 int main(int argc, const char * argv[]) {
-    int total = 1000;
+    long total = 1000;
     CFMutableArrayRef mutaArray = CFArrayCreateMutable(kCFAllocatorSystemDefault, total, NULL);
     for (int index = 0; index < total; index++) {
         int *temp = (int *)malloc(sizeof(int));
