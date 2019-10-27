@@ -2688,10 +2688,10 @@ static int32_t __CFRunLoopRun(CFRunLoopRef rl, CFRunLoopModeRef rlm, CFTimeInter
 
     if (__CFRunLoopIsStopped(rl)) {
         __CFRunLoopUnsetStopped(rl);
-	return kCFRunLoopRunStopped;
+        return kCFRunLoopRunStopped;
     } else if (rlm->_stopped) {
-	rlm->_stopped = false;
-	return kCFRunLoopRunStopped;
+        rlm->_stopped = false;
+        return kCFRunLoopRunStopped;
     }
     
 #if __HAS_DISPATCH__
@@ -2768,8 +2768,8 @@ static int32_t __CFRunLoopRun(CFRunLoopRef rl, CFRunLoopModeRef rlm, CFTimeInter
             __CFRunLoopDoObservers(rl, rlm, kCFRunLoopBeforeSources);
         }
 
-	__CFRunLoopDoBlocks(rl, rlm);
-
+        __CFRunLoopDoBlocks(rl, rlm);
+        
         Boolean sourceHandledThisLoop = __CFRunLoopDoSources0(rl, rlm, stopAfterHandle);
         if (sourceHandledThisLoop) {
             __CFRunLoopDoBlocks(rl, rlm);
@@ -3052,15 +3052,15 @@ SInt32 CFRunLoopRunSpecific(CFRunLoopRef rl, CFStringRef modeName, CFTimeInterva
     rl->_currentMode = currentMode;
     int32_t result = kCFRunLoopRunFinished;
 
-	if (currentMode->_observerMask & kCFRunLoopEntry ) __CFRunLoopDoObservers(rl, currentMode, kCFRunLoopEntry);
-        cf_trace(KDEBUG_EVENT_CFRL_RUN | DBG_FUNC_START, rl, currentMode, seconds, previousMode);
-        result = __CFRunLoopRun(rl, currentMode, seconds, returnAfterSourceHandled, previousMode);
-        cf_trace(KDEBUG_EVENT_CFRL_RUN | DBG_FUNC_END, rl, currentMode, seconds, previousMode);
-        if (currentMode->_observerMask & kCFRunLoopExit ) __CFRunLoopDoObservers(rl, currentMode, kCFRunLoopExit);
-
-        __CFRunLoopModeUnlock(currentMode);
-        __CFRunLoopPopPerRunData(rl, previousPerRun);
-        rl->_currentMode = previousMode;
+    if (currentMode->_observerMask & kCFRunLoopEntry ) __CFRunLoopDoObservers(rl, currentMode, kCFRunLoopEntry);
+    cf_trace(KDEBUG_EVENT_CFRL_RUN | DBG_FUNC_START, rl, currentMode, seconds, previousMode);
+    result = __CFRunLoopRun(rl, currentMode, seconds, returnAfterSourceHandled, previousMode);
+    cf_trace(KDEBUG_EVENT_CFRL_RUN | DBG_FUNC_END, rl, currentMode, seconds, previousMode);
+    if (currentMode->_observerMask & kCFRunLoopExit ) __CFRunLoopDoObservers(rl, currentMode, kCFRunLoopExit);
+    
+    __CFRunLoopModeUnlock(currentMode);
+    __CFRunLoopPopPerRunData(rl, previousPerRun);
+    rl->_currentMode = previousMode;
     __CFRunLoopUnlock(rl);
     return result;
 }
